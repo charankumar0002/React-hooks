@@ -14,13 +14,21 @@ export default function Project2() {
     const handleAddItem = event => {
         setCart(items => [...items , inputValue])
     }
+
+    const handleKeys = event => {
+      if (event.key === 'Enter') {
+          handleAddItem();
+      }
+    }
+
+
   return (
     <div>
       <h1>
         Grocery List
       </h1>
-      <input type='text' onChange={handleInputValue}/>
-      <button type='button' onClick={handleAddItem}>
+      <input type='text' onChange={handleInputValue} onKeyPress={handleKeys}/>
+      <button type='button' onClick={handleAddItem}  >
         Add to cart
       </button>
       <h1>

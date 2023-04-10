@@ -1,3 +1,8 @@
+import FilterExample from "./searchFilter/searchFilter";
+import FilterExample4 from "./searchFilter/searchFilter4";
+import FilterExample2 from "./searchFilter/searchfilter2";
+import FilterExample3 from "./searchFilter/searchfilter3";
+
 import SortAndFilterExample from "./sortBy-searchBar/sortby_searchBar";
 import SortBy from "./sortBy/sortby";
 import Project1 from "./usestate/project-1";
@@ -10,6 +15,10 @@ function App() {
       <Project2 />
       <SortBy />
       <SortAndFilterExample />
+      <FilterExample/>
+      <FilterExample2/>
+      <FilterExample3/>
+      <FilterExample4/>
     </div>
   );
 }

@@ -57,6 +57,7 @@ function FilterExample4() {
       <label htmlFor="company-search-bar">Search by Company:</label>
       <input type="text" id="company-search-bar" value={searchCompanyQuery} onChange={handleCompanySearch} />
 
+
       <ul>
         {sortedData.map((item, index) => (
           <li key={index}>

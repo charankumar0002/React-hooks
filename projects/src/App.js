@@ -25,7 +25,6 @@ function App() {
       <FilterExample2/>
       <FilterExample3/>
       <FilterExample4/>
-      {/* <FilterExample5/> */}
       <Table1/>
       <Transition1/>
       <CircularSlider/>

@@ -1,0 +1,13 @@
+.ContainerBox {
+    background-color:aquamarine;
+    height: 100vh;
+}
+.CardBox {
+    height: 100px;
+    width: 80%;
+    /* padding: 20px; */
+    margin: 0px auto 0px auto;
+    /* place-items: center; */
+    display: flex;
+    justify-content: center;
+}
